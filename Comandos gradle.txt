@@ -1,0 +1,23 @@
+gradle init      --> Iniciar un proyecto Gradle
+gradle tasks
+gradle tasks all --> Ejecuta todas las tareas
+gradle firstTask --> Despues de definir una tarea en el gradle, así se puede ejecutar
+gradle compileJava --> Compilar proyecto Java
+gradle clean -> Elimina el build generado por la compilación
+gradle test -> Genera los test
+gradle jar -> Genera los jar de la aplicación
+gradle run -> Ejecuta la aplicación
+gradle build -> Compia el proyecto gradle
+gradle build --daemon -> Cuando se construya se cargará toda la información y se realizará todos los calculos necesarios para construir el proyecto, el proceso
+se iniciará en segundo plano y las compilaciones posteriores serán mucho más rápidas, el daemon tendrá toda la información
+gradle build --no-daemon -> Para compilar el proyecto sin el daemon
+gradle appRun --> Ejecutar la aplicación web con greety
+gradle tomcatRun --> Ejecutar la app con Tomcat
+gradle :web:clean -> Para ejecutar una tarea unicamente en el subproyecto especificado
+gradle :web:clean :web:build -> Para ejecutar un clean y un build de un submodulo especificamente desde el root.
+gradle web:dependencies -> Para ver las gradle dependencies
+gradle clean build jTR -> Comando Jacoco para reportes
+gradle sonar -Dsonar.login=TOKEN
+
+
+Group Id: Artifact id: Versión
